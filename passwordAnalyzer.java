@@ -1,10 +1,19 @@
 import java.util.*;
+class passwordAnalyzer
+{
+public static void main()
+{
+    Scanner sc = new Scanner(System.in);
+    System.out.println("HAVE DOUBTS ANALYZE YOUR PASSWORD HERE JUST DROP IT");
+     String p=sc.nextLine();
+     int l=p.length();
+  int a = 0;
+  if (l >= 8)
+    a++;
 
-class passwordAnalyzer {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("HAVE DOUBTS ANALYZE YOUR PASSWORD HERE JUST DROP IT");
-        String p = sc.nextLine();
-
-       
+  
+     
+    
+     
+}
 }
