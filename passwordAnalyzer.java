@@ -7,5 +7,13 @@ public static void main()
     System.out.println("HAVE DOUBTS ANALYZE YOUR PASSWORD HERE JUST DROP IT");
      String p=sc.nextLine();
      int l=p.length();
+  int a = 0;
+  if (l >= 8)
+    a++;
+
+  
+     
+    
+     
 }
 }
